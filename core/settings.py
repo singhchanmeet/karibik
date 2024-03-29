@@ -128,8 +128,8 @@ STATIC_URL = 'django_static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'django_static')
 
 # Media files uploaded by user
-MEDIA_URL = 'core/build/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'core/build/media')
+MEDIA_URL = 'media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 REACT_APP_BUILD_PATH = "core/build"
