@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'form',
-    'react'
+    # 'react'
 ]
 
 MIDDLEWARE = [
@@ -132,4 +132,4 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
-REACT_APP_BUILD_PATH = "core/build"
+# REACT_APP_BUILD_PATH = "core/build"
